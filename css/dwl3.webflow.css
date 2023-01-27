@@ -1981,6 +1981,15 @@ strong {
   margin-top: 12vh;
 }
 
+@media screen and (min-width: 991px) {
+  .row.news-body {
+      padding-right: 25vw;
+  }
+}
+.news-body p {
+    text-align: justify;
+    text-indent: 1.5rem;
+}
 .row {
   padding: 15vh 10vw 20vh;
   border-top: 1px solid #000;
@@ -2489,6 +2498,10 @@ strong {
 }
 
 @media screen and (max-width: 479px) {
+  .news-body {
+      padding-right: 25vw;
+  }
+
   ul {
     padding-left: 20px;
   }
