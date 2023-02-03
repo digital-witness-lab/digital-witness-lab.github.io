@@ -16,6 +16,8 @@ h1 {
   letter-spacing: -0.05em;
 }
 
+
+
 h2 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -84,7 +86,6 @@ ul {
 li {
   margin-bottom: 20px;
   padding-left: 20px;
-  color: #e4022a;
 }
 
 img {
@@ -1306,19 +1307,6 @@ strong {
   text-align: center;
 }
 
-.intro-txt {
-  position: relative;
-  z-index: 1;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 0vw;
-  color: #000;
-  font-size: 3.9rem;
-  line-height: 1.1;
-  font-weight: 300;
-  letter-spacing: -0.15rem;
-}
-
 .intro-txt.small {
   width: 80%;
   margin-top: 4vh;
@@ -1329,35 +1317,6 @@ strong {
   font-weight: 300;
   letter-spacing: -0.03rem;
   white-space: pre-wrap;
-}
-
-.intro-txt.tagline{
-  width: 80%;
-  margin-top: 4vh;
-  padding-top: 0vh;
-  padding-right: 0vw;
-  font-size: 1.9rem;
-  line-height: 1.4;
-  font-weight: 300;
-  letter-spacing: -0.03rem;
-  white-space: pre-wrap;
-}
-
-.intro-txt.dateline{
-  width: 80%;
-  margin-top: 4vh;
-  padding-top: 0vh;
-  padding-right: 0vw;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  font-weight: 100;
-  letter-spacing: -0.03rem;
-  white-space: pre-wrap;
-}
-
-.intro-txt.max-900 {
-  max-width: 850px;
-  padding-top: 3vh;
 }
 
 .centre {
@@ -1982,19 +1941,6 @@ strong {
   margin-top: 12vh;
 }
 
-@media screen and (min-width: 991px) {
-  .row.news-body {
-      padding-right: 25vw;
-  }
-}
-.news-body p {
-    text-align: justify;
-    text-indent: 1.5rem;
-}
-.news-section {
-
-}
-
 .row {
   padding: 15vh 10vw 20vh;
   border-top: 1px solid #000;
@@ -2510,10 +2456,6 @@ strong {
 }
 
 @media screen and (max-width: 479px) {
-  .news-body {
-      padding-right: 25vw;
-  }
-
   ul {
     padding-left: 20px;
   }

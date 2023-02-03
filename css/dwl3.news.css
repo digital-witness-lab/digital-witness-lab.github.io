@@ -1,0 +1,106 @@
+.header h2:after, .news-body h3:after, #nav-home:after {
+    color: #e4022a;
+    font-size: 2em;
+    content: '.';
+    text-decoration: none;
+    display:inline-block;
+    line-height: 0;
+}
+
+
+#nav-home {
+    position: absolute;
+    z-index: 100;
+    top: 10px;
+    left: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: .2em;
+    font-variant: small-caps;
+
+    border-bottom: none;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+td, th {
+    padding: 10px 30px 10px 10px;
+    border-top: 1px solid #999;
+}
+
+h6 {
+    font-size: 18px;
+    padding-top: 2vh;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+.news h2, .intro-txt {
+    position: relative;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0vw;
+    color: #000;
+    font-size: 3.9rem;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: -0.15rem;
+}
+
+.news h4 {
+    width: 80%;
+    margin-top: 1vh;
+    padding-top: 0vh;
+    padding-right: 0vw;
+    font-size: 1.9rem;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: -0.03rem;
+    white-space: pre-wrap;
+    padding-bottom: 0vh;
+}
+
+.news h3 {
+    width: 80%;
+    margin-top: 4vh;
+    padding-top: 8vh;
+    padding-right: 0vw;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 500;
+    letter-spacing: -0.03rem;
+    white-space: pre-wrap;
+    padding-bottom: 2vh;
+}
+
+.news h2, .intro-txt.max-900 {
+    max-width: 850px;
+    padding-top: 3vh;
+}
+
+@media screen and (min-width: 991px) {
+    .row.news-body {
+        padding-right: 25vw;
+    }
+}
+.news-body p {
+    text-align: justify;
+    text-indent: 0;
+}
+.news-body h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    text-decoration: underline dotted red;
+    padding-top: 0vh;
+}
+
+@media screen and (max-width: 479px) {
+    .news-body {
+        padding-right: 25vw;
+    }
+}
