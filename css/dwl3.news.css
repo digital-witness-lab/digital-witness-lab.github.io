@@ -11,7 +11,7 @@ strong {
     color: #e4022a;
     font-weight: 500;
     letter-spacing: normal;
-  }
+}
 
 #nav-home {
     position: absolute;
@@ -47,10 +47,10 @@ p {
 }
 
 .figuretext, .byline-caption, .datawrapper-cx0YO-gg8z6e {
-        padding-top:15px;
-        padding-bottom:15px;
-        font-size:14px; 
-        color:#666;}
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size:14px; 
+color:#666;}
 
 .news h2, .intro-txt {
     position: relative;
@@ -96,17 +96,11 @@ p {
     padding-top: 3vh;
 }
 
-@media screen and (min-width: 991px) {
-    .row.news-body {
-        padding-right: 32vw;
-        padding-top:5vh;
-    }
-}
 .news-body p {
-    /*text-align: justify;*/
     text-indent: 0;
     line-height:170%;
 }
+
 .news-body h3 {
     font-size: 2rem;
     font-weight: 400;
@@ -125,10 +119,23 @@ blockquote {
     border-left: 5px solid #E2E2E2;
     font-size: 18px;
     line-height: 22px;
-  }
+}
+
+@media screen and (min-width: 991px) {
+    /*Large Screens*/
+    .row.news-body {
+        padding-right: 32vw;
+        padding-top:5vh;
+    }
+}
 
 @media screen and (max-width: 479px) {
+    /*Small Screens*/
     .news-body {
-        padding-right: 25vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    .news-body p {
+        text-align: justify;
     }
 }
