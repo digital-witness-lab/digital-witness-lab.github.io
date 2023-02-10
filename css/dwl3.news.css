@@ -106,6 +106,7 @@ color:#666;}
     font-weight: 400;
     letter-spacing: 0.05rem;
     text-decoration: underline dotted red;
+    text-underline-offset: 25%;
     padding-top: 7vh;
 }
 iframe{
