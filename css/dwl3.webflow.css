@@ -1676,13 +1676,23 @@ strong {
   width: 100%;
 }
 
+.team-image-div:hover {
+    -webkit-filter: contrast(100%) grayscale(0%) saturate(70%) !important;
+    filter: contrast(100%) grayscale(0%) saturate(70%) !important;
+    transition: 300ms filter linear, 300ms -webkit-filter linear;
+}
+
 .team-image-div {
   overflow: hidden;
   width: 50%;
   height: 19vw;
   margin-bottom: 2vh;
-  -webkit-filter: contrast(94%) grayscale(100%);
-  filter: contrast(94%) grayscale(100%);
+  transition: 300ms filter linear, 300ms -webkit-filter linear;
+}
+
+.team-image-div.micha{
+  -webkit-filter: contrast(116%) grayscale(100%);
+  filter: contrast(116%) grayscale(100%);
 }
 
 .team-image-div.surya {
