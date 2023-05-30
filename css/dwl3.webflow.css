@@ -1677,9 +1677,9 @@ strong {
 }
 
 .team-image-div:hover {
-    -webkit-filter: contrast(100%) grayscale(0%) saturate(70%) !important;
-    filter: contrast(100%) grayscale(0%) saturate(70%) !important;
-    transition: 300ms filter linear, 300ms -webkit-filter linear;
+  -webkit-filter: contrast(100%) grayscale(0%) saturate(70%) !important;
+  filter: contrast(100%) grayscale(0%) saturate(70%) !important;
+  transition: 300ms filter linear, 300ms -webkit-filter linear;
 }
 
 .team-image-div {
@@ -2731,7 +2731,7 @@ strong {
 
   .team-image-div {
     width: 100%;
-    height: 307px;
+    height: 90vw;
   }
 
   .team-member-parent {
