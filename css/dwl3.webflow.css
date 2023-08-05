@@ -1690,6 +1690,11 @@ strong {
   transition: 300ms filter linear, 300ms -webkit-filter linear;
 }
 
+.team-image-div.kumar {
+  -webkit-filter: contrast(116%) grayscale(100%);
+  filter: contrast(116%) grayscale(100%);
+}
+
 .team-image-div.micha{
   -webkit-filter: contrast(116%) grayscale(100%);
   filter: contrast(116%) grayscale(100%);
@@ -1699,6 +1704,7 @@ strong {
   -webkit-filter: contrast(116%) grayscale(100%);
   filter: contrast(116%) grayscale(100%);
 }
+
 
 .social-link {
   display: block;
