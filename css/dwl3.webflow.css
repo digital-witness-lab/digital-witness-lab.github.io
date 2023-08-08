@@ -1647,6 +1647,7 @@ strong {
 
 .team-message-text {
   margin-bottom: 20px;
+  text-align: justify;
   color: #111;
   font-size: 0.9em;
   line-height: 1.4;
@@ -1690,6 +1691,11 @@ strong {
   transition: 300ms filter linear, 300ms -webkit-filter linear;
 }
 
+.team-image-div.kumar {
+  -webkit-filter: contrast(116%) grayscale(100%);
+  filter: contrast(116%) grayscale(100%);
+}
+
 .team-image-div.micha{
   -webkit-filter: contrast(116%) grayscale(100%);
   filter: contrast(116%) grayscale(100%);
@@ -1699,6 +1705,7 @@ strong {
   -webkit-filter: contrast(116%) grayscale(100%);
   filter: contrast(116%) grayscale(100%);
 }
+
 
 .social-link {
   display: block;
