@@ -1691,13 +1691,19 @@ strong {
   margin-bottom: 2vh;
   transition: 300ms filter linear, 300ms -webkit-filter linear;
 }
-
-.team-image-div.kumar {
+.team-image-div.member {
   -webkit-filter: contrast(116%) grayscale(100%);
   filter: contrast(116%) grayscale(100%);
 }
 
-.team-image-div.micha{
+/* .team-image-div.angie {
+  -webkit-filter: contrast(116%) grayscale(100%);
+  filter: contrast(116%) grayscale(100%);
+} */
+
+
+
+/* .team-image-div.micha{
   -webkit-filter: contrast(116%) grayscale(100%);
   filter: contrast(116%) grayscale(100%);
 }
@@ -1706,6 +1712,8 @@ strong {
   -webkit-filter: contrast(116%) grayscale(100%);
   filter: contrast(116%) grayscale(100%);
 }
+ */
+
 
 
 .social-link {
